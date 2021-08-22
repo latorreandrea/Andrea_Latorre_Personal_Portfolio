@@ -1,3 +1,5 @@
-body {
-    background-color: rgb(153, 26, 26);
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+header {
+    margin: 0
 }
