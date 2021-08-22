@@ -14,6 +14,23 @@ font-family: 'Roboto', sans-serif;
 body {
     overflow-x: hidden;
 }
+/*----------------------------colors*/
+
+.ui-menu-color-home{
+    background-color: #977341;
+}
+
+.ui-menu-color-resume{
+    background-color: #00C9AF;
+}
+
+.ui-menu-color-contact{
+    background-color: #5F4111;
+}
+
+.ui-menu-color-download{
+    background-color: #007662;
+}
 
 /*---------------------------heading*/
 .bg-color-name-title {
