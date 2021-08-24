@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
+.bg-color-three-reason {
+    background-color: #fff;
+
+}
 
 .bg-color-name-title {
     background-color: #676767;
@@ -43,6 +47,22 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-colomn {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin: 25px 0 45px 0;
 }
 
 /*--------------------------------------------Heading*/
