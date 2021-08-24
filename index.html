@@ -2,43 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrea Latorre Portfolio</title>
-    
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <title>Andrea Latorre personal Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="row">
-            <a href="index.html" class="col-md-4 logo">
-
-            </a>
+        <div class="row no-gutters">
+            <a class="col-md-4 logo" href="02-index.html"></a>
             <div class="col-md-8">
-                <div class="row bg-color-name-title">
+                <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
-                        <h1 class="name">Latorre Andrea</h1>
-                        <h2 class="title">Full Stack Developer</h2>
+                        <h1 class="name">Andrea Latorre</h1>
+                        <h2 class="title"> Full Stack Developer</h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row no-gutters">
                     <div class="col">
-                        <ul id="nav" class="list-inline">
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home">
-                                <a href="#"><span>Home</span></a>
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume">
-                                <a href="#"><span>Resume</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact">
-                                <a href="#"><span>Contact</span></a>
-                            </li>      
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download">
-                                <a href="#"><span>Download</span></a>
-                            </li>                         
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -46,10 +43,55 @@
         </div>
     </header>
     <section>
-
-    </section>
-    <footer>
         
-    </footer>    
+    </section>
+    <footer id="footer-detail" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">
+                    A front-end/back-end Developer
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Download my CV from here!
+                    <a href="#" target="_blank" class= "cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ui class= "list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinKedin</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ui>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
